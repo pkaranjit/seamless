@@ -2,6 +2,6 @@
 <head>
 </head>
 <body>
-	<h3>Hello World!</h3>
+	<h3>こんにちは</h3>
 </body>
 </html>
