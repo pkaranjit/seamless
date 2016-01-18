@@ -1,23 +1,20 @@
-<div class="jumbotron">
-  <h1>'Allo, 'Allo!</h1>
-  <p class="lead">
-    <img src="images/yeoman.png" alt="I'm Yeoman"><br>
-    Always a pleasure scaffolding your apps.
-  </p>
-  <p><a class="btn btn-lg btn-success" ng-href="#/">Splendid!<span class="glyphicon glyphicon-ok"></span></a></p>
+<img class="logo" src="images/superlogo.png" alt="logo">
+<img bg class="fullBg" ng-if="isCurrentPage('home')" src="images/bg00.jpg">
+<img bg class="fullBg" ng-if="isCurrentPage('about')" src="images/bg01.jpg">
+<img bg class="fullBg" ng-if="isCurrentPage('contact')" src="images/bg02.jpg">
+
+<div class="panel panel-animation" ng-hide="isInTransit">
+  <div>
+    <h1 class="blue">{{page.label}}</h1>
+
+    <h3>{{page.sublabel}}</h3>
+
+    <p>{{page.content}}</p>
+  </div>
 </div>
 
-<div class="row marketing">
-  <h4>HTML5 Boilerplate</h4>
-  <p>
-    HTML5 Boilerplate is a professional front-end template for building fast, robust, and adaptable web apps or sites.
-  </p>
-
-  <h4>Angular</h4>
-  <p>
-    AngularJS is a toolset for building the framework most suited to your application development.
-  </p>
-
-  <h4>Karma</h4>
-  <p>Spectacular Test Runner for JavaScript.</p>
-</div>
+<ul class="nav nav-pills">
+  <li ng-class="{'active':isCurrentPage('home')}"><a ng-click="setCurrentPage('home')">HOME</a></li>
+  <li ng-class="{'active':isCurrentPage('about')}"><a ng-click="setCurrentPage('about')">ABOUT</a></li>
+  <li ng-class="{'active':isCurrentPage('contact')}"><a ng-click="setCurrentPage('contact')">CONTACT</a></li>
+</ul>
