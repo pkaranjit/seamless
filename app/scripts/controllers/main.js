@@ -11,10 +11,10 @@
 
   $("li").hover(over, out);
   function over(){
-    TweenMax.to($(this).find("a"), 0.3, {rotation:-1.1, scale:1.05, x:0, delay:0.6})
+    TweenMax.to($(this).find("a"), 0.3, {rotation:0, backgroundColor:"#90EE90", borderColor:"#90EE90", scale:1.1, x:0, delay:0.6});
   }
   function out(){
-    TweenMax.to($(this).find("a"), 0.3, {rotation:0, scale:1, x:0, overwrite:"all"})
+    TweenMax.to($(this).find("a"), 0.3, {rotation:0, backgroundColor:"#eeeeee", borderColor:"#ffffff", scale:1, x:0, overwrite:"all"});
   }
 });
 
