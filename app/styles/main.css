@@ -82,8 +82,13 @@ ul.gallery li a {
     margin:15px;
 }
 
-ul.gallery li a img{
+ul.gallery li a img {
     width:300px;
     height:300px;
 }
+
+  ul.gallery li:hover {
+    z-index: 1000;
+    -moz-box-shadow: 3px 5px 15px #333;
+  }
 
