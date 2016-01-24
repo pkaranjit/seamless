@@ -87,8 +87,6 @@ ul.gallery li a img {
     height:300px;
 }
 
-  ul.gallery li:hover {
-    z-index: 1000;
-    -moz-box-shadow: 3px 5px 15px #333;
-  }
-
+ul.gallery li a:hover {
+    z-index:1000;
+}
