@@ -1,0 +1,12 @@
+[    
+    {"content_type" : "notes", "title" : "Paris", "data" : "Paris  is the capital and most populous city of France. Situated on the Seine River, in the north of the country, it is in the centre of the Île-de-France region, also known as the région parisienne, Paris Region. The City of Paris has an area of 105 km² (41 mi²) and a population of 2,241,346 (2014 estimate)[5] within its administrative borders essentially unchanged since 1860."},
+    {"content_type" : "video", "title" : "Trip to Paris", "data" : "http://player.vimeo.com/video/37176398"},  
+    {"content_type" : "polaroid", "title" : "Cambridge, MA", "data" : "thumbs/1.jpg"},
+    {"content_type" : "polaroid", "title" : "Tokyo, Japan", "data" : "thumbs/2.jpg"},
+    {"content_type" : "polaroid", "title" : "Bhaktapur, Nepal", "data" : "thumbs/3.jpg"},
+    {"content_type" : "image", "title" : "Sydney photo album", "data" : "thumbs/temp-photo.jpg"},
+    {"content_type" : "notes", "title" : "Sydney", "data" : "Sydney /ˈsɪdni/[6] is the state capital of New South Wales and the most populous city in Australia and Oceania.[7] Located on Australia's east coast, the metropolis surrounds the world's largest natural harbour, and sprawls towards the Blue Mountains to the west.[8] Residents of Sydney are known as 'Sydneysiders'. Sydney is the second official seat and second official residence of the Governor-General of Australia."},
+    {"content_type" : "polaroid", "title" : "San Francisco, CA", "data" : "thumbs/4.jpg"},
+    {"content_type" : "polaroid", "title" : "Okinawa, Japan", "data" : "thumbs/5.jpg"},
+    {"content_type" : "polaroid", "title" : "Singapore, Singapore", "data" : "thumbs/6.jpg"}    
+]

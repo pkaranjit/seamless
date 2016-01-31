@@ -2,19 +2,11 @@
 
 /**
  * @ngdoc function
- * @name todoApp.controller:MainCtrl
+ * @name SeamlessApp.controller:MainCtrl
  * @description
  * # MainCtrl
- * Controller of the todoApp
+ * Controller of the SeamlessApp
  */
- angular.module('todoApp').controller('MainCtrl', function ($scope) {
-
-  $("li").hover(over, out);
-  function over(){
-    TweenMax.to($(this).find("a"), 0.3, {rotation:0, backgroundColor:"#90EE90", borderColor:"#90EE90", scale:1.1, x:0, delay:0.6});
-  }
-  function out(){
-    TweenMax.to($(this).find("a"), 0.3, {rotation:0, backgroundColor:"#eeeeee", borderColor:"#ffffff", scale:1, x:0, overwrite:"all"});
-  }
-});
+ angular.module('SeamlessApp').controller('MainCtrl', function ($scope) {
+ });
 

@@ -2,11 +2,11 @@
 
 /**
  * @ngdoc function
- * @name todoApp.controller:AboutCtrl
+ * @name SeamlessApp.controller:AboutCtrl
  * @description
  * # AboutCtrl
- * Controller of the todoApp
+ * Controller of the SeamlessApp
  */
-angular.module('todoApp')
-  .controller('AboutCtrl', function () {
-  });
+ angular.module('SeamlessApp')
+ .controller('AboutCtrl', function () {
+ });
