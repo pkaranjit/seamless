@@ -92,7 +92,7 @@ seamlessApp.directive('contentItem', function ($compile, TemplateService) {
     };
 
     var linker = function (scope, element, attrs) {
-        scope.rootDirectory = 'images/';
+        scope.rootDirectory = 'data/resources/';
 
         TemplateService.getTemplates().then(function (response) {
             var templates = response.data;
