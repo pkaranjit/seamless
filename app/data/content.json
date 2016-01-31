@@ -4,7 +4,7 @@
     {"content_type" : "polaroid", "title" : "Cambridge, MA", "data" : "thumbs/1.jpg"},
     {"content_type" : "polaroid", "title" : "Tokyo, Japan", "data" : "thumbs/2.jpg"},
     {"content_type" : "polaroid", "title" : "Bhaktapur, Nepal", "data" : "thumbs/3.jpg"},
-    {"content_type" : "image", "title" : "Sydney photo album", "data" : "thumbs/temp-photo.jpg"},
+    {"content_type" : "album", "title" : "Sydney photo album", "data" : "thumbs/temp-photo.jpg"},
     {"content_type" : "notes", "title" : "Sydney", "data" : "Sydney /ˈsɪdni/[6] is the state capital of New South Wales and the most populous city in Australia and Oceania.[7] Located on Australia's east coast, the metropolis surrounds the world's largest natural harbour, and sprawls towards the Blue Mountains to the west.[8] Residents of Sydney are known as 'Sydneysiders'. Sydney is the second official seat and second official residence of the Governor-General of Australia."},
     {"content_type" : "polaroid", "title" : "San Francisco, CA", "data" : "thumbs/4.jpg"},
     {"content_type" : "polaroid", "title" : "Okinawa, Japan", "data" : "thumbs/5.jpg"},

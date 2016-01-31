@@ -1,9 +1,9 @@
 {
-	"imageTemplate": [
+	"albumTemplate": [
 		"<div class='entry'>",
-			"<div class='entry-container entry-photo'>",
+			"<div class='entry-container entry-album'>",
 				"<h2>&nbsp;</h2>",
-				"<div class='entry-img'>",
+				"<div class='entry-coverimg'>",
 					"<span>",
 						"<a href='{{rootDirectory}}{{content.data}}'>",
 							"<img ng-src='{{rootDirectory}}{{content.data}}' alt='entry photo'>",

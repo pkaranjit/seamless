@@ -75,8 +75,8 @@ seamlessApp.directive('contentItem', function ($compile, TemplateService) {
         var template = '';
 
         switch (contentType) {
-            case 'image':
-                template = templates.imageTemplate.join(' ');
+            case 'album':
+                template = templates.albumTemplate.join(' ');
                 break;
             case 'video':
                 template = templates.videoTemplate.join(' ');
